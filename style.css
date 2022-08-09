@@ -1,0 +1,121 @@
+/* nav.navBar ul {
+    list-style: none;
+}
+
+nav.navBar ul li {
+    margin-bottom: 10px;
+    display: inline;
+}
+
+nav.navBar ul li a {
+    border: 1px #555 solid;
+    padding: 2px 8px;
+    display: inline-block;
+    border-radius: 19px;
+    text-decoration: none;
+    color: #555;
+    margin: 0 2px;
+    font-size: 12px;
+    transition: .3s;
+}
+
+nav.navBar ul li a:hover {
+    background-color: #555;
+    color: #ddd;
+}
+
+nav.navBar ul li a:active {
+    background-color: red;
+    color: #fff;
+} */
+
+body{
+    background-color: rgb(95, 86, 108);
+}
+.login-form {
+    /* border: 1px red solid; */
+    width: 80%;
+    height: 600px;
+    margin: 50px auto;
+}
+
+.leftBox {
+    /* border: blue 1px solid; */
+    padding: 10px;
+    width: 49%;
+    height: 96.5%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    background-color: #20203f;
+}
+
+.rightBox {
+    /* border: green 1px solid; */
+    background-color: #fff;
+    color: #555;
+    font-size: 20px;
+    padding: 0% 4%;
+    width: 41.33%;
+    float: left;
+    height: 99.8%;
+}
+
+.leftBox h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.leftBox h3{
+    font-weight: 100;
+}
+
+.leftBox p {
+    font-size: 17px;
+    line-height: 14px;
+}
+
+
+.user-img {
+    border: 1px #fff solid;
+    border-radius: 50%;
+    width: 140px;
+    display: inline-block;
+    height: 140px;
+    overflow: hidden;
+}
+
+
+.leftBox .user-img img {
+    width: 140px;
+    height: auto;
+    object-fit: cover;
+}
+
+.rightBox h2{
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+ 
+.rightBox input{
+    height: 40px;
+}
+
+#email{
+    width: 338px;
+}
+
+.rightBox button{
+    width: 335px;
+    height: 40px;
+    background-color: #20203f;
+    color: whitesmoke;
+    font-size: 20px;
+}
+#date{
+    width: 335px;
+    text-decoration: none;
+}
